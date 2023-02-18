@@ -1,13 +1,10 @@
 package com.driver.controllers;
 
-import com.driver.model.User;
 import com.driver.services.impl.ConnectionServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/connection")
